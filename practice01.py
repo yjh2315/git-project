@@ -66,10 +66,9 @@ while(in1 != 2):
         in1 = input()
         in1 = int(in1)
 
-print("\n제출용: ",end='')
-print(sGrade,end='')
-print("학점 (GPA:",sGpa/sGrade,")")
-print("제출용: ",oGrade,"학점 (GPA:",oGpa/oGrade,")")
+
+print("제출용: %d학점 (GPA:%.2f)"%(sGrade,sGpa/sGrade))
+print("열람용: %d학점 (GPA:%.2f)"%(oGrade,oGpa/oGrade))
 
 
 print("\n프로그램을 종료합니다.")
