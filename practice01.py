@@ -7,15 +7,15 @@ sGrade, oGrade = 0,0
 sGpa, oGpa = 0,0
 
 
-while(in1 != 2):
-    if(in1 == 1):
+while in1 != 2:
+    if in1 == 1:
         print("\n학점을 입력하세요:")
         grade = input()
         grade = int(grade)
         print("평점을 입력하세요:")
         score = input()
         
-        match(score):
+        match score:
             case "A+":
                 sGrade += grade
                 oGrade += grade
